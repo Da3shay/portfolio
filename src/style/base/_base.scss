@@ -1,0 +1,59 @@
+html 
+{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+  
+.nav-item
+{
+
+  padding: 2rem;
+  margin: 2px;
+
+  text-align: center;
+  font-weight: bold;
+
+
+}
+
+.navbar
+
+{
+   
+  
+   position: sticky;
+ 
+ border: 2 solid transparent;
+
+}
+
+.bkg-color
+{
+ background-image: linear-gradient(
+    135deg,
+    $primary-color 0%,
+    $secondary-color 100%
+  )
+}
+.navbar-nav{
+  justify-content: center;
+}
+/*.navbar-collapse .collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}*/
